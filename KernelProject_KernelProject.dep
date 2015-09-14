@@ -1,0 +1,139 @@
+Dependencies for Project 'KernelProject', Target 'KernelProject': (DO NOT MODIFY !)
+F (.\startup_stm32f40xx.s)(0x51C7A16E)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx--list .\list\startup_stm32f40xx.lst --xref -o .\object\startup_stm32f40xx.o --depend .\object\startup_stm32f40xx.d)
+F (.\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x5505687D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\system_stm32f4xx.o --depend .\object\system_stm32f4xx.d)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\misc.o --depend .\object\misc.d)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x527D5151)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\stm32f4xx_gpio.o --depend .\object\stm32f4xx_gpio.d)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x527D5152)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\stm32f4xx_rcc.o --depend .\object\stm32f4xx_rcc.d)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (.\Libraries\stm32f4xx_it.c)(0x55F6CFB1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\stm32f4xx_it.o --depend .\object\stm32f4xx_it.d)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_it.h)(0x55F6CFA2)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)
+F (.\kernel\croutine.c)(0x540632A7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\croutine.o --depend .\object\croutine.d)
+F (.\kernel\event_groups.c)(0x540632A7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\event_groups.o --depend .\object\event_groups.d)
+F (.\kernel\list.c)(0x540632A7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\list.o --depend .\object\list.d)
+F (.\kernel\os_call.c)(0x55F6C5C2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\os_call.o --depend .\object\os_call.d)
+F (.\kernel\queue.c)(0x540632A8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\queue.o --depend .\object\queue.d)
+F (.\kernel\tasks.c)(0x540632A8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\tasks.o --depend .\object\tasks.d)
+F (.\kernel\timers.c)(0x540632A8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\timers.o --depend .\object\timers.d)
+F (.\kernel\portable\port.c)(0x540632A8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\port.o --depend .\object\port.d)
+F (.\kernel\config\FreeRTOSConfig.h)(0x540632A6)()
+F (.\kernel\MemMang\heap_3.c)(0x540632A8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\heap_3.o --depend .\object\heap_3.d)
+F (.\main.c)(0x55F6D048)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\kernel\inc -I.\kernel\config -I.\kernel\portable-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40XX-o .\object\main.o --depend .\object\main.d)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55056853)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4.h)(0x527B7156)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7A934)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7156)
+I (C:\workspace\ARM\KernelTest\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x527D4F4F)
+I (C:\workspace\ARM\KernelTest\Libraries\stm32f4xx_conf.h)(0x5572602E)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EF8)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513A)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x527D5139)
+I (C:\workspace\ARM\KernelTest\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x527D5139)

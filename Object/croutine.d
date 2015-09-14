@@ -1,0 +1,12 @@
+.\object\croutine.o: kernel\croutine.c
+.\object\croutine.o: .\kernel\inc\FreeRTOS.h
+.\object\croutine.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\object\croutine.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\object\croutine.o: .\kernel\config\FreeRTOSConfig.h
+.\object\croutine.o: .\kernel\inc\projdefs.h
+.\object\croutine.o: .\kernel\inc\portable.h
+.\object\croutine.o: .\kernel\portable\portmacro.h
+.\object\croutine.o: .\kernel\inc\mpu_wrappers.h
+.\object\croutine.o: .\kernel\inc\task.h
+.\object\croutine.o: .\kernel\inc\list.h
+.\object\croutine.o: .\kernel\inc\croutine.h

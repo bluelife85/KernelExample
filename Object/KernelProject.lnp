@@ -1,0 +1,21 @@
+--cpu Cortex-M4.fp
+".\object\startup_stm32f40xx.o"
+".\object\system_stm32f4xx.o"
+".\object\misc.o"
+".\object\stm32f4xx_gpio.o"
+".\object\stm32f4xx_rcc.o"
+".\object\stm32f4xx_it.o"
+".\object\croutine.o"
+".\object\event_groups.o"
+".\object\list.o"
+".\object\os_call.o"
+".\object\queue.o"
+".\object\tasks.o"
+".\object\timers.o"
+".\object\port.o"
+".\object\heap_3.o"
+".\object\main.o"
+--strict --scatter ".\Object\KernelProject.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\KernelProject.map" -o .\Object\KernelProject.axf

@@ -1,0 +1,14 @@
+.\object\os_call.o: kernel\os_call.c
+.\object\os_call.o: .\kernel\inc\FreeRTOS.h
+.\object\os_call.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\object\os_call.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\object\os_call.o: .\kernel\config\FreeRTOSConfig.h
+.\object\os_call.o: .\kernel\inc\projdefs.h
+.\object\os_call.o: .\kernel\inc\portable.h
+.\object\os_call.o: .\kernel\portable\portmacro.h
+.\object\os_call.o: .\kernel\inc\mpu_wrappers.h
+.\object\os_call.o: .\kernel\inc\task.h
+.\object\os_call.o: .\kernel\inc\list.h
+.\object\os_call.o: .\kernel\inc\timers.h
+.\object\os_call.o: .\kernel\inc\semphr.h
+.\object\os_call.o: .\kernel\inc\queue.h

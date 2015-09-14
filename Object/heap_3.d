@@ -1,0 +1,12 @@
+.\object\heap_3.o: kernel\MemMang\heap_3.c
+.\object\heap_3.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\object\heap_3.o: .\kernel\inc\FreeRTOS.h
+.\object\heap_3.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\object\heap_3.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\object\heap_3.o: .\kernel\config\FreeRTOSConfig.h
+.\object\heap_3.o: .\kernel\inc\projdefs.h
+.\object\heap_3.o: .\kernel\inc\portable.h
+.\object\heap_3.o: .\kernel\portable\portmacro.h
+.\object\heap_3.o: .\kernel\inc\mpu_wrappers.h
+.\object\heap_3.o: .\kernel\inc\task.h
+.\object\heap_3.o: .\kernel\inc\list.h
